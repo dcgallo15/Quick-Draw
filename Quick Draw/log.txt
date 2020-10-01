@@ -1,0 +1,4 @@
+ [19:22:11] [I]: Started
+ [19:22:11] [I]: SDL VERSION: 2.0.12
+ [19:22:11] [I]: OPENGL VERSION: 17.18.21
+ [19:22:51] [E]: Program Terminated!
