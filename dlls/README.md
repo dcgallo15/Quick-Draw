@@ -1,0 +1,1 @@
+Paste these DLLS into "Quick Draw\bin\Debug-windows-x86" and "Quick Draw\bin\Release-windows-x86"
