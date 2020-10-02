@@ -1,7 +1,7 @@
 #include "../include/log.h"
 
 std::shared_ptr<spdlog::logger> log::m_coreLogger;
-std::shared_ptr<spdlog::logger> log::m_fileLogger = spdlog::basic_logger_mt("basic_logger", "log.txt",true);
+std::shared_ptr<spdlog::logger> log::m_fileLogger = spdlog::basic_logger_mt("basic_logger", "log.log",true);
 
 void log::init() 
 {
