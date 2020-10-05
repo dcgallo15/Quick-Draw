@@ -1,6 +1,6 @@
 # Binaries
 **/bin/
-bin-int/
+**/bin-int/
 
 #log files
 *.log
