@@ -24,16 +24,16 @@ project "Quick Draw"
     includedirs
     {
         "%{prj.name}/vendor/spdlog/include",
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2_TTF/include",
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2_image/include",
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2/include"
+        "%{prj.name}/vendor/SDL2/SDL2_TTF/include",
+        "%{prj.name}/vendor/SDL2/SDL2_IMG/include",
+        "%{prj.name}/vendor/SDL2/SDL2/include"
     }
 
     libdirs
     {
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2_TTF/lib/x86",
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2_image/lib/x86",
-        "E:/Coding Stuff/EXTRA_LIBS/C++/SDL2/lib/x86"
+        "%{prj.name}/vendor/SDL2/SDL2_TTF/lib/x86",
+        "%{prj.name}/vendor/SDL2/SDL2_image/lib/x86",
+        "%{prj.name}/vendor/SDL2/SDL2/lib/x86"
     }
 
     links
