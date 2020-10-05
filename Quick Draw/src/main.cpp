@@ -39,7 +39,7 @@ int main(int argc, char* args[])
 		LOG_FATAL(SDL_GetError());
 	}
 
-	renderWindow window("0's & X's",1280,720);
+	renderWindow window("Quick Draw",1280,720);
 
 	Uint32 startingTick;
 

@@ -1,7 +1,3 @@
-# Binaries
-#**/bin/
-#bin-int/
-
 *.log
 
 # Visual Studio files and folder
